@@ -13,5 +13,10 @@ scoop install kanywst/y509
 | :--- | :--- |
 | [y509](https://github.com/kanywst/y509) | TUI for X.509 certificate chains. Verifies trust, and catches the missing intermediates and bad ordering that break curl but not browsers. |
 
-Manifests carry `checkver` and `autoupdate`, so a new upstream release is picked
-up without editing the URL and hash by hand.
+## How this stays current
+
+`Excavator` runs every four hours, follows each manifest's `checkver` and
+`autoupdate`, and commits a new version when upstream publishes one. It
+computes the hash from the archive it downloads, so no hash is ever copied by
+hand. `CI` runs the Scoop bucket test suite, including `bin/checkhashes.ps1`,
+on every push.
