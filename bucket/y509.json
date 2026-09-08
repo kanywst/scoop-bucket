@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/kanywst/y509/releases/download/v1.1.1/y509-1.1.1-windows-amd64.zip",
-            "hash": "8c35e39b26d6e7828d4f5651e6af915bc2ee8a4523c3d5ddfcbef8f560477a49"
+            "hash": "5dcabadce02881d5a3648879813e0960ac1c2b8dddac2d5005842a1b7f411007"
         },
         "arm64": {
             "url": "https://github.com/kanywst/y509/releases/download/v1.1.1/y509-1.1.1-windows-arm64.zip",
-            "hash": "e77b68cf25a0ba68e044c9c887035ce5cd9ae92559630cb36a630cbddbafdda9"
+            "hash": "ed4829b18197d21e5eb4102c76c26238f4d6a71b2f695fb37f5e13795b349374"
         }
     },
     "bin": "y509.exe",
