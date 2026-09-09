@@ -1,16 +1,16 @@
 {
-    "version": "1.1.1",
+    "version": "1.2.0",
     "description": "TUI for X.509 certificate chains: verifies trust, and catches the missing intermediates and bad ordering that break curl but not browsers",
     "homepage": "https://github.com/kanywst/y509",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kanywst/y509/releases/download/v1.1.1/y509-1.1.1-windows-amd64.zip",
-            "hash": "5dcabadce02881d5a3648879813e0960ac1c2b8dddac2d5005842a1b7f411007"
+            "url": "https://github.com/kanywst/y509/releases/download/v1.2.0/y509-1.2.0-windows-amd64.zip",
+            "hash": "47575f09e268001c9b58d735826f88a1a776944749a78de5ba3bca569ab27dea"
         },
         "arm64": {
-            "url": "https://github.com/kanywst/y509/releases/download/v1.1.1/y509-1.1.1-windows-arm64.zip",
-            "hash": "ed4829b18197d21e5eb4102c76c26238f4d6a71b2f695fb37f5e13795b349374"
+            "url": "https://github.com/kanywst/y509/releases/download/v1.2.0/y509-1.2.0-windows-arm64.zip",
+            "hash": "cdd8f4e5654db36a2da96448e794c106a1066f62f1e4b782ae7aa4670b32f2da"
         }
     },
     "bin": "y509.exe",
