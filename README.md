@@ -16,8 +16,4 @@ scoop install kanywst/y509
 
 ## How this stays current
 
-`Excavator` runs every four hours, follows each manifest's `checkver` and
-`autoupdate`, and commits a new version when upstream publishes one. It
-computes the hash from the archive it downloads, so no hash is ever copied by
-hand. `CI` runs the Scoop bucket test suite, including `bin/checkhashes.ps1`,
-on every push.
+`Excavator` runs every four hours, follows each manifest's `checkver` and `autoupdate`, and commits a new version when upstream publishes one. It computes the hash from the archive it downloads, so no hash is ever copied by hand. `CI` runs the Scoop bucket test suite, including `bin/checkhashes.ps1`, on every push.
