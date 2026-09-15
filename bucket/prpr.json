@@ -1,22 +1,20 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Terminal dashboard for the open GitHub pull requests you can see, across your account and every org you belong to",
     "homepage": "https://github.com/kanywst/prpr",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kanywst/prpr/releases/download/v0.1.0/prpr-0.1.0-windows-amd64.zip",
-            "hash": "aa6445e9d9d48a7d7d59f7e687f69673824c1144b91a819af58fb820156ee27e"
+            "url": "https://github.com/kanywst/prpr/releases/download/v0.1.1/prpr-0.1.1-windows-amd64.zip",
+            "hash": "78a43b5a781f5251474189d2a27aac3d591f94d026f864de035cf5a5d1388c04"
         },
         "arm64": {
-            "url": "https://github.com/kanywst/prpr/releases/download/v0.1.0/prpr-0.1.0-windows-arm64.zip",
-            "hash": "03e2bccf62d32cf756a084b3e1bb72dd854b7462d0d382dee4f891e1c53602ab"
+            "url": "https://github.com/kanywst/prpr/releases/download/v0.1.1/prpr-0.1.1-windows-arm64.zip",
+            "hash": "223f423b867de17b6fd6e41adef48cde013b9fbd382ff41c70d24b61c5929d43"
         }
     },
     "bin": "prpr.exe",
-    "notes": [
-        "prpr reuses the gh CLI's stored credentials, so run 'gh auth login' first."
-    ],
+    "notes": "prpr reuses the gh CLI's stored credentials, so run 'gh auth login' first.",
     "checkver": {
         "github": "https://github.com/kanywst/prpr"
     },
