@@ -11,7 +11,7 @@ scoop install kanywst/y509
 
 | Tool | |
 | :--- | :--- |
-| [rapg](https://github.com/kanywst/rapg) | Local-first secret manager for the AI-agent era. Keeps API keys out of `.env` files and out of your agent transcripts. |
+| [rapg](https://github.com/kanywst/rapg) | **Deprecated** (2026-09-29, archiving on or after 2026-12-29); manifest moved to `deprecated/`. Local-first secret manager for the AI-agent era. Keeps API keys out of `.env` files and out of your agent transcripts. |
 | [y509](https://github.com/kanywst/y509) | TUI for X.509 certificate chains. Verifies trust, and catches the missing intermediates and bad ordering that break curl but not browsers. |
 
 ## How this stays current
