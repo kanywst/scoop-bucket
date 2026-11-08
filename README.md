@@ -11,6 +11,7 @@ scoop install kanywst/y509
 
 | Tool | |
 | :--- | :--- |
+| [rapg](https://github.com/kanywst/rapg) | **Deprecated** (2026-09-29); repository archived on 2026-11-08, so no further releases. The manifest stays in `deprecated/` (Scoop's convention for retired apps), so existing installs keep resolving. Local-first secret manager for the AI-agent era. Keeps API keys out of `.env` files and out of your agent transcripts. |
 | [y509](https://github.com/kanywst/y509) | TUI for X.509 certificate chains. Verifies trust, and catches the missing intermediates and bad ordering that break curl but not browsers. |
 
 ## How this stays current
